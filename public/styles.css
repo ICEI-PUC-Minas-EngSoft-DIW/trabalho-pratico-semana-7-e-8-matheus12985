@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+  margin: 0;
+}
+
+#lista-filmes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 40px;
+}
+
+header {
+  background-color: #e50914;
+  color: white;
+  text-align: center;
+  padding: 18px 0;
+}
+
+header span {
+  background-color: #153ecf;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;            
+  justify-content: center;    
+  align-items: flex-start;
+  gap: 24px;                  
+  padding: 40px;
+}
+
+.card {
+  background-color: #222;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 240px;
+  text-align: center;
+  transition: transform 0.2s ease;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5);
+  flex-shrink: 0;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+
+.card h3 { margin: 12px 10px 6px; font-size: 1.05rem; }
+.card p { color: #cfcfcf; font-size: 0.92rem; padding: 0 12px 12px; }
+
+.card a {
+  display:inline-block;
+  margin: 0 0 16px;
+  padding: 8px 14px;
+  background: #153ecf;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.card a:hover { background: #102c9a; }
+
+/* detalhes */
+.detalhes {
+  max-width: 900px;
+  margin: 36px auto;
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.detalhes img { width: 100%; border-radius: 8px; margin-bottom: 12px; }
+.detalhes h2 { margin-top: 8px; }
+.detalhes p { color: #ddd; line-height: 1.6; }
+
+.voltar { color: #e50914; text-decoration: none; font-weight: bold; }
+.voltar:hover { text-decoration: underline; }
