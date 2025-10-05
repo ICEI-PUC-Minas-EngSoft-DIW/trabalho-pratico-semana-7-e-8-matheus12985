@@ -19,25 +19,42 @@ Leia o enunciado completo no Canvas.
 
 ## Print da Home-Page
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print da Home-Page](public/img/homepage.png)
 
 ## Print da página de detalhes do item
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Página de detalhes](public/img/detalhes.png)
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
 ```javascript
 const dados = [
   {
-    "id": 1,
-    "titulo": "Prefeitura Lança Plano de Mobilidade Urbana",
-    "descricao": "Novo plano do transporte público.",
-    "conteudo": "A Prefeitura apresentou nesta segunda-feira um novo plano de mobilidade urbana.",
-    "categoria": "Cidades",
-    "autor": "Joana Ribeiro",
-    "data": "2025-03-30",
-    "imagem": "img/mobilidade.jpg"
+    id: 1,
+    titulo: "O Senhor dos Anéis: A Sociedade do Anel",
+    descricao: "Um jovem hobbit embarca em uma jornada para destruir o Um Anel.",
+    conteudo: "Frodo Bolseiro herda um anel poderoso e maligno e deve destruí-lo para impedir que Sauron domine a Terra Média.",
+    diretor: "Peter Jackson",
+    ano: 2001,
+    imagem: "img/sociedade.jpg"
+  },
+  {
+    id: 2,
+    titulo: "Interestelar",
+    descricao: "Exploradores viajam através de um buraco de minhoca em busca de um novo lar para a humanidade.",
+    conteudo: "No futuro, a Terra está morrendo. Um grupo de astronautas parte em uma missão para encontrar um novo planeta habitável.",
+    diretor: "Christopher Nolan",
+    ano: 2014,
+    imagem: "img/interestelar.jpg"
+  },
+  {
+    id: 3,
+    titulo: "Coringa",
+    descricao: "A origem sombria de um dos maiores vilões dos quadrinhos.",
+    conteudo: "Arthur Fleck é um comediante que sofre com problemas mentais e acaba se transformando no temido Coringa.",
+    diretor: "Todd Phillips",
+    ano: 2019,
+    imagem: "img/coringa.jpg"
   }
-]
+];
 ```
